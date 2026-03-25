@@ -1,1 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pastelería La Gloria | Linares</title>
+  <meta name="description" content="Pastelería La Gloria en Linares. Tartas, pasteles, dulces artesanos y encargos con sabor auténtico." />
+  <meta name="theme-color" content="#8d4f39" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="scroll-progress"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-mark">LG</span>
+        <div>
+          <strong>Pastelería La Gloria</strong>
+          <small>Linares, Jaén</small>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav">
+        <a href="#productos">Productos</a>
+        <a href="#diferencial">Diferencial</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#horario">Horario</a>
+        <a href="#contacto" class="nav-cta">Encargar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-noise"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Artesanía, frescura y sabor auténtico</span>
+          <h1>Una vitrina digital a la altura de <span>La Gloria</span></h1>
+          <p>
+            Tartas, pasteles y dulces artesanos en el corazón de Linares. Una propuesta visual pensada para enamorar a primera vista y convertir visitas en pedidos.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#productos" class="btn btn-primary">Ver productos</a>
+            <a href="#opiniones" class="btn btn-secondary">Leer opiniones</a>
+          </div>
+
+          <div class="hero-stats">
+            <article>
+              <strong>5/5</strong>
+              <span>Opiniones destacadas</span>
+            </article>
+            <article>
+              <strong>7 días</strong>
+              <span>Abierto toda la semana</span>
+            </article>
+            <article>
+              <strong>Artesano</strong>
+              <span>Elaboración cuidada</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="showcase-card main-card">
+            <div class="badge-pill">Especialidad de la casa</div>
+            <h3>Tartas por encargo</h3>
+            <p>Diseños elegantes, sabor casero y acabados impecables para cumpleaños, celebraciones y momentos especiales.</p>
+
+            <div class="mini-gallery">
+              <div class="mini-cake strawberry"><span>Frutas & crema</span></div>
+              <div class="mini-cake chocolate"><span>Chocolate intenso</span></div>
+              <div class="mini-cake classic"><span>Clásicos artesanos</span></div>
+            </div>
+          </div>
+
+          <div class="floating-note note-one">
+            <strong>Producto fresco</strong>
+            <span>Sabor espectacular</span>
+          </div>
+
+          <div class="floating-note note-two">
+            <strong>Trato de 10</strong>
+            <span>Cliente satisfecho</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-bar reveal">
+      <div class="container featured-inner">
+        <span>Ideal para presentar una demo potente al cliente</span>
+        <div class="featured-tags">
+          <span>Catálogo visual</span>
+          <span>Opiniones reales</span>
+          <span>Horarios claros</span>
+          <span>CTA WhatsApp</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="productos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Exhibición de productos</span>
+          <h2>Un escaparate digital con intención de compra</h2>
+          <p>Una presentación moderna para mostrar especialidades, destacar encargos y transmitir calidad desde el primer vistazo.</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="filter-btn active" data-filter="all">Todo</button>
+          <button class="filter-btn" data-filter="tartas">Tartas</button>
+          <button class="filter-btn" data-filter="pasteles">Pasteles</button>
+          <button class="filter-btn" data-filter="desayunos">Desayunos</button>
+          <button class="filter-btn" data-filter="eventos">Eventos</button>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card reveal" data-category="tartas">
+            <div class="product-visual visual-berry">
+              <div class="product-glow"></div>
+              <span class="product-label">Más vendido</span>
+            </div>
+            <div class="product-body">
+              <div class="product-topline">
+                <span class="product-category">Tartas</span>
+                <span class="product-rating">★ 5.0</span>
+              </div>
+              <h3>Tarta de frutas y crema</h3>
+              <p>Ligera, fresca y elegante. Perfecta para celebraciones familiares y eventos con presentación cuidada.</p>
+              <div class="product-tags">
+                <span>Fresca</span>
+                <span>Artesana</span>
+                <span>Por encargo</span>
+              </div>
+              <button class="ghost-btn product-more" data-product="frutas">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="tartas">
+            <div class="product-visual visual-choco">
+              <div class="product-glow"></div>
+              <span class="product-label">Favorita</span>
+            </div>
+            <div class="product-body">
+              <div class="product-topline">
+                <span class="product-category">Tartas</span>
+                <span class="product-rating">★ 5.0</span>
+              </div>
+              <h3>Tarta de chocolate premium</h3>
+              <p>Capas intensas y acabado sofisticado. Pensada para quienes quieren un sabor rotundo y memorable.</p>
+              <div class="product-tags">
+                <span>Chocolate</span>
+                <span>Celebraciones</span>
+                <span>Visual top</span>
+              </div>
+              <button class="ghost-btn product-more" data-product="chocolate">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="pasteles">
+            <div class="product-visual visual-cream">
+              <div class="product-glow"></div>
+              <span class="product-label">Tradición</span>
+            </div>
+            <div class="product-body">
+              <div class="product-topline">
+                <span class="product-category">Pasteles</span>
+                <span class="product-rating">★ 5.0</span>
+              </div>
+              <h3>Pasteles de crema artesanos</h3>
+              <p>Textura cremosa y sabor auténtico. Un clásico con el toque especial que los clientes recuerdan.</p>
+              <div class="product-tags">
+                <span>Crema pastelera</span>
+                <span>Clásico</span>
+                <span>Fresco</span>
+              </div>
+              <button class="ghost-btn product-more" data-product="crema">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="desayunos">
+            <div class="product-visual visual-breakfast">
+              <div class="product-glow"></div>
+              <span class="product-label">Mañanas</span>
+            </div>
+            <div class="product-body">
+              <div class="product-topline">
+                <span class="product-category">Desayunos</span>
+                <span class="product-rating">★ 5.0</span>
+              </div>
+              <h3>Dulce de vitrina diaria</h3>
+              <p>Selección ideal para acompañar el café y empezar el día con sabor, variedad y presentación impecable.</p>
+              <div class="product-tags">
+                <span>Diario</span>
+                <span>Vitrina</span>
+                <span>Recurrente</span>
+              </div>
+              <button class="ghost-btn product-more" data-product="vitrina">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="eventos">
+            <div class="product-visual visual-celebration">
+              <div class="product-glow"></div>
+              <span class="product-label">Eventos</span>
+            </div>
+            <div class="product-body">
+              <div class="product-topline">
+                <span class="product-category">Encargos</span>
+                <span class="product-rating">★ 5.0</span>
+              </div>
+              <h3>Tartas personalizadas</h3>
+              <p>Diseños por encargo para cumpleaños, aniversarios y fechas señaladas, con enfoque visual y sabor memorable.</p>
+              <div class="product-tags">
+                <span>Personalizable</span>
+                <span>Eventos</span>
+                <span>Entrega</span>
+              </div>
+              <button class="ghost-btn product-more" data-product="encargo">Ver detalle</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="eventos">
+            <div class="product-visual visual-season">
+              <div class="product-glow"></div>
+              <span class="product-label">Temporada</span>
+            </div>
+            <div class="product-body">
+              <div class="product-topline">
+                <span class="product-category">Especiales</span>
+                <span class="product-rating">★ 5.0</span>
+              </div>
+              <h3>Especialidades festivas</h3>
+              <p>Propuestas para campañas como Reyes, Navidad o celebraciones locales, pensadas para generar venta estacional.</p>
+              <div class="product-tags">
+                <span>Roscón</span>
+                <span>Campañas</span>
+                <span>Edición especial</span>
+              </div>
+              <button class="ghost-btn product-more" data-product="temporada">Ver detalle</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section highlight-section" id="diferencial">
+      <div class="container highlight-grid">
+        <div class="highlight-copy reveal">
+          <span class="eyebrow">Lo que transmite esta demo</span>
+          <h2>Elegancia visual con conversión real</h2>
+          <p>
+            Esta estructura está pensada para que el negocio no solo se vea bonito, sino para facilitar el contacto, enseñar el producto y reforzar la confianza del cliente en segundos.
+          </p>
+
+          <div class="benefits">
+            <article>
+              <strong>Catálogo vivo</strong>
+              <p>Se pueden añadir productos, campañas, promociones y encargos de temporada con rapidez.</p>
+            </article>
+            <article>
+              <strong>Prueba social</strong>
+              <p>Las reseñas resaltan calidad, frescura y trato cercano, tres factores decisivos para comprar.</p>
+            </article>
+            <article>
+              <strong>Contacto directo</strong>
+              <p>Botones de llamada, WhatsApp y ubicación para convertir visitas locales en ventas reales.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="experience-card reveal">
+          <div class="experience-top">
+            <span class="chip">Experiencia premium</span>
+            <span class="chip soft">Diseño responsive</span>
+          </div>
+
+          <div class="experience-panel">
+            <div class="exp-row">
+              <span>Presentación visual</span>
+              <strong>Muy alta</strong>
+            </div>
+            <div class="exp-row">
+              <span>Claridad de horarios</span>
+              <strong>Excelente</strong>
+            </div>
+            <div class="exp-row">
+              <span>Potencial de encargo</span>
+              <strong>Alto</strong>
+            </div>
+            <div class="exp-row">
+              <span>Valor para SEO local</span>
+              <strong>Muy alto</strong>
+            </div>
+          </div>
+
+          <div class="experience-footer">
+            <p>Una web así da presencia, credibilidad y una imagen más seria que depender solo de redes sociales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" id="opiniones">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Opiniones</span>
+          <h2>La confianza ya existe. Aquí se hace visible.</h2>
+          <p>Selección de reseñas destacadas para reforzar el valor percibido y la credibilidad del negocio.</p>
+        </div>
+
+        <div class="testimonial-slider reveal">
+          <button class="slider-arrow prev" aria-label="Anterior">‹</button>
+
+          <div class="testimonial-track">
+            <article class="testimonial active">
+              <div class="quote-mark">“</div>
+              <p>Una auténtica joya en Linares. Productos artesanos, siempre frescos y con un sabor espectacular.</p>
+              <div class="testimonial-meta">
+                <strong>Alma Sánchez</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="quote-mark">“</div>
+              <p>No he probado en ninguna otra pastelería los dulces y tartas como aquí. Todo espectacular.</p>
+              <div class="testimonial-meta">
+                <strong>José Enrique Sánchez Fernández</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="quote-mark">“</div>
+              <p>Sabor auténtico y atención de 10. Pasteles deliciosos, variedad y una calidad constante.</p>
+              <div class="testimonial-meta">
+                <strong>Mari Trini Armijo Torres</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="quote-mark">“</div>
+              <p>La mejor pastelería de Linares. Hacen una labor preciosa incluso llevando tartas a domicilio.</p>
+              <div class="testimonial-meta">
+                <strong>Mari Carmen García</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="quote-mark">“</div>
+              <p>Llevo comprando mucho tiempo. Trato espectacular, y las tartas todavía más espectaculares.</p>
+              <div class="testimonial-meta">
+                <strong>Guillermo</strong>
+                <span>Google · 5/5</span>
+              </div>
+            </article>
+          </div>
+
+          <button class="slider-arrow next" aria-label="Siguiente">›</button>
+        </div>
+
+        <div class="review-summary reveal">
+          <article>
+            <strong>Lo que más repiten</strong>
+            <p>Frescura, sabor artesano, calidad constante y trato cercano.</p>
+          </article>
+          <article>
+            <strong>Lo que vende la web</strong>
+            <p>Confianza inmediata para nuevos clientes y mejor imagen para encargos.</p>
+          </article>
+          <article>
+            <strong>Impacto comercial</strong>
+            <p>Más facilidad para decidir compra, reservar y compartir la marca.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section schedule-section" id="horario">
+      <div class="container schedule-grid">
+        <div class="schedule-card reveal">
+          <span class="eyebrow">Horario</span>
+          <h2>Abierto los 7 días</h2>
+          <ul class="schedule-list">
+            <li><span>Lunes</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+            <li><span>Martes</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+            <li><span>Miércoles</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+            <li><span>Jueves</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+            <li><span>Viernes</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+            <li><span>Sábado</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+            <li><span>Domingo</span><strong>10:00–14:00 · 17:00–21:00</strong></li>
+          </ul>
+        </div>
+
+        <div class="contact-card reveal" id="contacto">
+          <span class="eyebrow">Contacto</span>
+          <h2>Pide, encarga o visita la tienda</h2>
+
+          <div class="contact-items">
+            <a href="tel:953602315">
+              <span>Teléfono</span>
+              <strong>953 60 23 15</strong>
+            </a>
+
+            <a href="https://maps.google.com/?q=Pje.+del+Comercio,+11,+23700+Linares,+Ja%C3%A9n" target="_blank" rel="noopener noreferrer">
+              <span>Dirección</span>
+              <strong>Pje. del Comercio, 11, 23700 Linares, Jaén</strong>
+            </a>
+
+            <a href="https://wa.me/34953602315?text=Hola%20Pasteler%C3%ADa%20La%20Gloria,%20quiero%20hacer%20un%20encargo." target="_blank" rel="noopener noreferrer">
+              <span>WhatsApp</span>
+              <strong>Enviar consulta rápida</strong>
+            </a>
+          </div>
+
+          <form class="demo-form" id="demoForm">
+            <div class="form-row">
+              <input type="text" id="nombre" placeholder="Tu nombre" />
+              <input type="tel" id="telefono" placeholder="Tu teléfono" />
+            </div>
+            <textarea id="mensaje" rows="4" placeholder="¿Qué te gustaría encargar?"></textarea>
+            <button type="submit" class="btn btn-primary form-btn">Enviar por WhatsApp</button>
+          </form>
+
+          <p class="form-note">Esta demo está adaptada a GitHub Pages: no necesita servidor y abre WhatsApp con el mensaje preparado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container cta-box reveal">
+        <div>
+          <span class="eyebrow">Cierre de la demo</span>
+          <h2>Una web así convierte una buena pastelería en una marca memorable</h2>
+          <p>Más imagen, más confianza y una forma mucho más profesional de enseñar lo que ya hacen bien.</p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="#contacto">Quiero esta estructura</a>
+          <a class="btn btn-secondary" href="tel:953602315">Llamar ahora</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Pastelería La Gloria</strong>
+        <p>Demo conceptual para presentación comercial en Linares.</p>
+      </div>
+      <small>© <span id="year"></span> · Demo lista para GitHub Pages</small>
+    </div>
+  </footer>
+
+  <div class="product-modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Cerrar">×</button>
+      <span class="eyebrow">Detalle del producto</span>
+      <h3 id="modal-title">Producto</h3>
+      <p id="modal-description">Descripción del producto.</p>
+      <div class="modal-tags" id="modal-tags"></div>
+      <a href="#contacto" class="btn btn-primary modal-cta">Solicitar encargo</a>
+    </div>
+  </div>
+
+  <a class="floating-contact" href="#contacto">
+    <span>Encargar</span>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
